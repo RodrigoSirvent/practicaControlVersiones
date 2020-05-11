@@ -45,6 +45,7 @@
             this.tNombre.Name = "tNombre";
             this.tNombre.Size = new System.Drawing.Size(146, 20);
             this.tNombre.TabIndex = 0;
+            this.tNombre.TextChanged += new System.EventHandler(this.tNombre_TextChanged);
             // 
             // tApellidos
             // 
@@ -62,11 +63,13 @@
             // 
             // tListaSocios
             // 
+            this.tListaSocios.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.tListaSocios.Location = new System.Drawing.Point(104, 149);
             this.tListaSocios.Multiline = true;
             this.tListaSocios.Name = "tListaSocios";
             this.tListaSocios.Size = new System.Drawing.Size(610, 194);
             this.tListaSocios.TabIndex = 3;
+            this.tListaSocios.Text = "<Aquí saldrá la lista de socios>";
             // 
             // button1
             // 
@@ -76,6 +79,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "Guardar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -100,9 +104,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(513, 32);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(26, 13);
+            this.label3.Size = new System.Drawing.Size(32, 13);
             this.label3.TabIndex = 7;
-            this.label3.Text = "TLF";
+            this.label3.Text = "Móvil";
             // 
             // label4
             // 
