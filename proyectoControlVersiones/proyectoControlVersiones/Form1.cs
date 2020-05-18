@@ -23,5 +23,18 @@ namespace proyectoControlVersiones
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //18/05/2020
+            string nombre = tNombre.Text;
+            string apellidos = tApellidos.Text;
+            string telefono = tTelefono.Text;
+            string texto = "";
+            texto = nombre + " " + apellidos + " " + telefono + "\n";
+
+            tListaSocios.Text = tListaSocios.Text.Replace("\n", Environment.NewLine);
+            tListaSocios.Text = tListaSocios.Text + texto;
+        }
     }
 }
