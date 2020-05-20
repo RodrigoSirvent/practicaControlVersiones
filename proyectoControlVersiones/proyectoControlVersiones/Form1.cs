@@ -21,7 +21,7 @@ namespace proyectoControlVersiones
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            //20052020 Aportación Fgarcia 
         }
     }
 }
