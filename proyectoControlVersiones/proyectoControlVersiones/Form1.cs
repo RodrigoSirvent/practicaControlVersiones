@@ -30,6 +30,9 @@ namespace proyectoControlVersiones
 
             tListaSocios.Text = tListaSocios.Text.Replace("\n", Environment.NewLine);
             tListaSocios.Text = tListaSocios.Text + texto;
+            
+
+
         }
     }
 }
