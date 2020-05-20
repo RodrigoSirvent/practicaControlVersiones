@@ -21,12 +21,7 @@ namespace proyectoControlVersiones
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            //18/05/2020
+            //20/05/2020
             string nombre = tNombre.Text;
             string apellidos = tApellidos.Text;
             string telefono = tTelefono.Text;
